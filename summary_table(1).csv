@@ -1,0 +1,9 @@
+algorithm,data,hyperparameter,accuracy
+Logistic Regression,y,random_state=42,0.63
+Random Forest,y,"{n_estimators=100, random_state=42}",0.52
+Random Forest,y,"{'max_depth': 5, 'min_samples_split': 2, 'n_estimators': 150}",0.55
+SVM,y,"{kernel='linear', random_state=42}",0.62
+Logistic Regression,y2,random_state=42,0.66
+Logistic Regression,y3,random_state=42,0.65
+Logistic Regression,y3 (X3=scaled),random_state=42,0.65
+Random Forest,y3 (X3=scaled),random_state=42,0.58
